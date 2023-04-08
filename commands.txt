@@ -1,0 +1,20 @@
+------------> To make linux terminal inside container(app)
+[1- Docker ps]
+[2-winpty docker exec -it b0aa2c920fd2 bash]
+ÎÑæÌ------> exit
+
+
+------------> Abraviations
+ls-----> list files
+
+-----------> inside postgres container(database)
+
+[winpty docker exec -it node_db psql -U francesco node_live_db]
+command -----> select from * users;
+ÎÑæÌ------> \q
+
+
+to build project -------------> docker compose up --bulid
+
+
+
